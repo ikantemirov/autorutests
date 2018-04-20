@@ -17,4 +17,7 @@ public interface PageContent extends HtmlElement {
     @FindBy("//div[@class='serp']")
     Serp serp();
 
+    @FindBy("//div[@class='subcategories']")
+    Subcategories subcategories();
+
 }
